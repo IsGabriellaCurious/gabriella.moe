@@ -11,16 +11,19 @@ function changeContact(type) {
     
     switch (type) {
         case "email":
-            setTop("gab@gabriella.moe", "mailto:gab@gabriella.moe");
+            setTop("isgabriellacurious@gmail.com", "mailto:isgabriellacurious@gmail.com");
             break;
         case "discord":
-            setTop("Gabriella#6859", null);
+            setTop("gabriella ✨#6859", null);
             break;
         case "twitter":
             setTop("@Gxbrlella", "https://twitter.com/Gxbrlella");
             break;    
         case "github":
             setTop("@IsGabriellaCurious", "https://github.com/IsGabriellaCurious");
+            break;
+        case "gbm":
+            setTop("hey, i'm gabriella! gbm.wtf is my url shortner, btw.", null);
             break;    
         default:
             setTop("hey, i'm gabriella!", null)
